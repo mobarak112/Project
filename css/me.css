@@ -1,0 +1,100 @@
+.color-highlight{
+    color: #f5368a;
+    font-size: 50px;
+   
+}
+body{
+    margin: 0;
+    font-family: 'Pushster', cursive;
+}
+.picture{
+    width: 80%;
+}
+
+
+.main-div{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 10%;
+    padding-top: 10%;
+    background: url("personal-website/header-bg.png") no-repeat center center/cover ;
+}
+.button{
+   text-decoration: none;
+   background-image: linear-gradient(180deg,lightsalmon,#f5368a);
+    
+    padding: 10px 20px;
+}
+.after-div{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 10%;
+    padding-top: 10%;
+    background: url("personal-website/biography-bg.png") no-repeat center center/cover;
+
+}
+
+.another-div{
+    display: grid;
+    grid-template-rows:auto auto ;
+    background: url("personal-website/latest-work-bg.png") no-repeat center center/cover;
+}
+.second-div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 5%;
+
+}
+.work{
+    text-align: center;
+}
+
+.last{
+    padding-bottom: 10rem;
+    background: url(personal-website/footer-bg.png) no-repeat center center/cover ;
+}
+
+.head{
+    text-align: center;
+    padding-top: 20%;
+}
+.head1{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 5%;
+    margin: 0rem 0rem !important;
+
+}
+.head2{
+    text-align: center;
+    color: gray;
+    margin: 0rem 0rem !important;
+}
+.head3{
+    font-size: 20px;
+    text-align: center;  
+}
+.paragraph-position1{
+    
+    width: 20%;
+    margin: auto;
+    padding: 1rem 5rem;
+    background-color: #f5368a;
+    color: white;
+    margin-top: 10%;
+}
+.paragraph-position1 p{
+    text-align: center;
+}
+.heading{
+    font-size: 1rem;
+}
+.heading-1{
+    font-size: 1.5rem;
+}
+
+footer{
+font-size: 1rem;
+text-align: center;
+color: gray;
+}
